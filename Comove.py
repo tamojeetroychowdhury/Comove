@@ -18,7 +18,7 @@ from astropy import coordinates
 from astropy.coordinates import ICRS
 from astroquery.gaia import Gaia
 from astroquery.exceptions import NoResultsWarning
-import galpy.util.bovy_coords as bc
+import galpy.util.coords as bc
 import matplotlib.pyplot as plt
 from matplotlib import cm
 import cartopy.crs as ccrs
